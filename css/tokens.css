@@ -1,0 +1,72 @@
+/* ============================================================
+   DESIGN TOKENS — single source of truth for the visual system.
+   Change a value here and it updates across the whole site.
+   ============================================================ */
+:root {
+  /* Color palette — warm neutrals + one bronze accent */
+  --color-bg:          #FAF7F2;  /* page background */
+  --color-surface:     #FFFFFF;  /* cards, panels */
+  --color-surface-2:   #F2EBE1;  /* soft beige secondary surface */
+  --color-surface-3:   #E9DFD1;  /* deeper beige (hover, dividers) */
+  --color-ink:         #211B14;  /* primary text */
+  --color-ink-soft:    #6E6356;  /* secondary text */
+  --color-ink-faint:   #9A8F80;  /* tertiary text, placeholders */
+  --color-border:      #E4DBCE;  /* hairline borders */
+
+  --color-accent:        #96572A; /* bronze — buttons, links, highlights */
+  --color-accent-strong: #7A4520; /* hover / pressed */
+  --color-accent-soft:   #F4E7DB; /* tinted backgrounds */
+
+  --color-success:      #2E6B46;
+  --color-success-soft: #E3F0E7;
+  --color-danger:       #A33B2E;
+  --color-danger-soft:  #F8E6E2;
+  --color-warning:      #8A6117;
+  --color-warning-soft: #F7EDD7;
+
+  --color-footer-bg:   #211B14;
+  --color-footer-text: #CBC0B2;
+
+  /* Typography */
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", -apple-system, "Segoe UI", sans-serif;
+
+  --text-xs:   0.75rem;    /* 12 */
+  --text-sm:   0.875rem;   /* 14 */
+  --text-base: 1rem;       /* 16 */
+  --text-md:   1.125rem;   /* 18 */
+  --text-lg:   1.375rem;   /* 22 */
+  --text-xl:   1.75rem;    /* 28 */
+  --text-2xl:  2.25rem;    /* 36 */
+  --text-3xl:  2.875rem;   /* 46 */
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-pill: 999px;
+
+  /* Shadows — kept subtle on purpose */
+  --shadow-sm: 0 1px 2px rgba(33, 27, 20, 0.06);
+  --shadow-md: 0 4px 14px rgba(33, 27, 20, 0.08);
+  --shadow-lg: 0 12px 32px rgba(33, 27, 20, 0.14);
+
+  /* Motion */
+  --ease: cubic-bezier(0.25, 0.6, 0.3, 1);
+  --dur-fast: 140ms;
+  --dur-med: 240ms;
+
+  /* Layout */
+  --container: 1120px;
+  --header-h: 64px;
+}
