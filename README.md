@@ -5,7 +5,7 @@ Pure **HTML + CSS + JavaScript (ES modules)** — no frameworks, no build step, 
 
 ## Run on
 
-velora-seven-theta.vercel.app
+[velora-seven-theta.vercel.app](url)
 
 
 ## Customer workflow implemented
