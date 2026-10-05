@@ -3,13 +3,10 @@
 A single-salon, customer-facing booking web app built for a Web Development Workshop project.
 Pure **HTML + CSS + JavaScript (ES modules)** — no frameworks, no build step, no dependencies.
 
-## Run it
+## Run on
 
-```bash
-# any static server works; from this folder:
-python3 -m http.server 8000
-# open http://localhost:8000
-```
+velora-seven-theta.vercel.app
+
 
 ## Customer workflow implemented
 
