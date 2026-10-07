@@ -1,0 +1,20 @@
+{
+  "name": "velora-studio",
+  "version": "1.0.0",
+  "description": "Salon booking application for Velora Studio",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "salon",
+    "booking",
+    "velora"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}

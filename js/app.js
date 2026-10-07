@@ -5,6 +5,8 @@
    very first visit.
    ============================================================ */
 
+import { inject } from '@vercel/analytics';
+
 import { store } from './store.js';
 import { route, startRouter } from './router.js';
 import { renderHeader, renderFooter, renderBottomNav, openLocationModal } from './components.js';
@@ -17,6 +19,9 @@ import { renderBooking } from './pages/booking.js';
 import { renderConfirmation } from './pages/confirmation.js';
 import { renderAppointments } from './pages/appointments.js';
 import { renderProfile } from './pages/profile.js';
+
+/* Initialize Vercel Web Analytics */
+inject();
 
 /* Routes */
 route('/', renderHome);
